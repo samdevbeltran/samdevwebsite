@@ -19,4 +19,4 @@ admins.method("toJSON",function(){
 	delete adminObject.password;
 	return adminObject;
 });
-module.exports = mongoose.model("Admins",admins);
+module.exports = mongoose.model("admins",admins);
